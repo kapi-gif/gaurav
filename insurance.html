@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="insurance.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+</head>
+
+<body>
+    <div class="sidebar">
+        <h3><i class="fa-solid fa-prescription-bottle-medical"></i>pharmaFly</h3>
+        <h4>
+            <img src="ram.jpg" alt="Profile Photo" width="40" height="40">
+            Kanha Meena
+        </h4>
+        <div class="menu">
+            <p><i class="fa-solid fa-table-columns"></i>Dashboard</p>
+            <p><i class="fa-solid fa-gauge"></i>Insurance Policy</p>
+            <p><i class="fa-solid fa-gauge"></i>Reports</p>
+            <p><i class="fa-solid fa-gauge"></i>Configuration</p>
+            <p><i class="fa-solid fa-gauge"></i>Contact Management</p>
+            <p><i class="fa-solid fa-gauge"></i>Notifications</p>
+            <p><i class="fa-solid fa-gauge"></i>Chat With Visitors</p>
+            <p><i class="fa-solid fa-gauge"></i>Application Settings</p>
+            <p><i class="fa-solid fa-gauge"></i>Covid-19</p>
+            <p><i class="fa-solid fa-gauge"></i>Get Technical Help</p>
+            <p class="footer">Powered by Kanha Meena @2022 v 1.1.2</p>
+        </div>
+    </div>
+    <div class="search-bar">
+        <input type="text" placeholder="Search for anything here">
+        <i class="fas fa-search"></i>
+        <p id="english">English(US) </p>
+        <p>Good Morning</p>
+        <p>15feb.2025 </p>
+        <p>22:45:04</p>
+    </div>
+
+    <div class="main">
+        <div>
+            <h2 style="display: inline-block; margin-right: 30px;">Apply Insurance Policy</h2>
+        </div>
+        <div>All fields are mandatory.</div>
+
+        <div style="display: flex; flex-wrap: wrap; margin-top:30px;">
+            <div style="flex: 1; margin-right: 10px;">
+                <label for="insuranceCompany" style="display: block; text-align: left;">Insurance Company Name</label>
+                <select id="insuranceCompany" name="insuranceCompany" style="width: 70%; height: 43px;  background-color: #dadcde;">
+                    <option value="lic">LIC</option>
+                    <option value="hdfc">HDFC Ergo</option>
+                    <option value="tata">Tata AIG</option>
+                    <option value="max">Max Bupa</option>
+                </select>
+            </div>
+            <div style="flex: 1;">
+                <label for="policyId" style="display: block; text-align: left;">Policy ID</label>
+                <input type="text" id="policyId" name="policyId" style="width: 70%; height: 33px;">
+            </div>
+        </div>
+        <div style="display: flex; flex-wrap: wrap; margin-top:30px;">
+            <div style="flex: 1; margin-right: 10px;">
+                <label for="insuranceType" style="display: block; text-align: left;">Type of Insurance</label>
+                <select id="insuranceType" name="insuranceType" style="width: 70%; height: 43px;  background-color: #dadcde;">
+                    <option value="health">Health Insurance</option>
+                    <option value="life">Life Insurance</option>
+                    <option value="auto">Auto Insurance</option>
+                    <option value="travel">Travel Insurance</option>
+                </select>
+            </div>
+            <div style="flex: 1;">
+                <label for="claimAmount" style="display: block; text-align: left;"> Claim Amount</label>
+                <input type="text" id="claimAmount" name="claimAmount" style="width: 70%; height: 33px;">
+            </div>
+        </div>
+
+        <div style="flex-wrap: wrap; margin-top:30px;">
+            <div style="flex: 1; margin-right: 10px;">
+                <label for="remark" style="display: block; text-align: left;">Remark</label>
+                <input type="text" id="remark" name="remark" style="width: 86%; height: 70px;">
+            </div>
+        </div>
+
+        <div>
+            <button style="background-color: red; color: white; padding: 10px 20px; border: none; cursor: pointer; margin-top: 35px;">
+                Save Details</button>
+    
+            <button style="background-color: red; color: white; padding: 10px 20px; border: none; cursor: pointer; margin-top: 35px ; margin-left: 640px;">
+                Sumbmit</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

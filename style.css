@@ -1,0 +1,183 @@
+/* Sidebar Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #2c3e50;
+    color: white;
+    padding: 20px;
+    position: fixed;
+}
+
+.sidebar h3 {
+    margin: 0;
+    padding: 10px 0;
+    font-size: 22px;
+    border-bottom: 2px solid #ecf0f1;
+}
+.sidebar h3 i{
+    margin-right: 20px;
+}
+.sidebar h4 {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 5px;
+    font-size: 18px;
+}
+
+.sidebar h4 img {
+    
+    margin-right: 10px;
+}
+
+.sidebar p {
+    font-size: 14px;
+    color:white;
+}
+
+.menu {
+    margin-top: 20px;
+}
+
+.menu p {
+    padding: 10px;
+    margin: 5px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.menu p i {
+    margin-right: 10px;
+}
+
+.menu p:hover {
+    background-color:rgb(13, 189, 189);
+    border-radius: 5px;
+}
+
+/* Adding full-width lines under "Configuration" and "Chat with Visitors" */
+.menu p:nth-child(7), .menu p:nth-child(4) {
+    border-bottom: 2px solid #ecf0f1;
+    width: 100%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    color: #bdc3c7;
+}
+
+/* Sidebar Content Styling (after sidebar) */
+.search-bar {
+    color: black;
+    background-color:#ecf0f1;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar input {
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    margin-left: 300px;
+}
+
+.search-bar i {
+    font-size: 18px;
+    color: black;
+}
+
+.search-bar #english {
+    margin-left: 160px;
+}
+
+/* Dashboard Styling */
+.dashboard {
+    margin-left: 300px;
+    padding: 20px;
+    background-color: #bdc3c7;
+    
+}
+
+.dashboard-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.dashboard div {
+    height: 160px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    font-weight: bold;
+}
+
+.dashboard i {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.dashboard p {
+    margin: 3px 0;
+    font-size: 14px;
+}
+.dashboard button{
+    margin-left: 750px;
+    height: 40px;
+    
+}
+.div1 {
+    border: 2px solid green;
+    background-color: white;
+}
+
+.div2 {
+    border: 2px solid orange;
+    background-color: white;
+}
+
+.div3 {
+    border: 2px solid aqua;
+    background-color: white;
+}
+
+.div4 {
+    border: 2px solid rgb(220, 131, 131);
+    background-color: white;
+}
+
+.menu a p:hover {
+    background-color: #34495e;
+    border-radius: 5px;
+    text-decoration: underline; 
+}
+.menu a{
+    text-decoration: none; 
+}
+
+
+
+
+
+
+
+
