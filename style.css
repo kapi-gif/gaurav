@@ -91,7 +91,7 @@ body {
     font-size: 16px;
     border: none;
     border-radius: 5px;
-    width: 250px;
+    width: 500px;
     margin-left: 300px;
 }
 
@@ -101,27 +101,57 @@ body {
 }
 
 .search-bar #english {
-    margin-left: 160px;
+    margin-left: 200px;
 }
 
 /* Dashboard Styling */
 .dashboard {
-    margin-left: 300px;
+    margin-left: 290px;
     padding: 20px;
     background-color: #bdc3c7;
     
 }
 
+.dashboard .board-container{
+    display: flex;
+    margin-left: 20px;
+}
+
+.dashboard .dash-heading{
+    text-align: left;
+    margin-top: -100px;
+}
+
+.dash-heading h2 p{
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 4px;
+}
+
+.dash-heading #dash-h2{
+    margin-left: 0px;
+}
+
+.dash-heading button{
+    margin-top: -60px;
+    margin-left: 735%;
+    width: 140px;
+    height: 40px;
+    border: 10px;
+}
+
 .dashboard-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 35px;
     justify-content: center;
+    margin-left: 35px;
+    margin-top: -60px;
 }
 
 .dashboard div {
-    height: 160px;
-    width: 200px;
+    height: 165px;
+    width: 250px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -140,11 +170,28 @@ body {
     margin: 3px 0;
     font-size: 14px;
 }
-.dashboard button{
-    margin-left: 750px;
-    height: 40px;
-    
+
+.language{
+     display: flex;
 }
+
+.status{
+    margin-left: 100px;
+}
+
+.date{
+    display: flex;
+    margin-top: -25px;
+}
+
+#morning{
+    margin-left: 90px;
+}
+
+#time{
+    margin-left: 50px;
+}
+
 .div1 {
     border: 2px solid green;
     background-color: white;
@@ -177,7 +224,182 @@ body {
 
 
 
+.inventory {
+    margin-left: 300px;
+    height: 130px;
+    width: 510px;
+    border: 2px solid black;
+    padding: 10px; 
+}
+
+.kapil1 {
+    display: flex;
+    justify-content: space-between; 
+    border-bottom: 2px solid black; 
+    padding-bottom: 5px; 
+    margin-bottom: 10px; 
+}
+
+.kapil2, .kapil3 {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-between
+    
+    
+    
+}
+
+.kapil2 p, .kapil3 p {
+    margin: 0; 
+    line-height: 1;
+
+
+    
+}
+.kapil2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.kapil2 p {
+    margin-right: 250px; 
+}
 
 
 
 
+.quick {
+    margin-left: 50px;
+    height: 130px;
+    width: 510px;
+    border: 2px solid black;
+    padding: 10px; 
+}
+.quick1 {
+    display: flex;
+    justify-content: space-between; 
+    border-bottom: 2px solid black; 
+    padding-bottom: 5px; 
+    margin-bottom: 10px;
+}
+
+.quick2, .quick3 {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-between
+    
+    
+    
+}
+
+.quick2 p, .quick3 p {
+    margin: 0; 
+    line-height: 1;
+
+
+    
+}
+.quick2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.quick2 p {
+    margin-right: 250px; 
+}
+
+.wrapper{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 42px;
+}
+
+
+
+.pharmacy {
+    margin-left: 300px;
+    height: 130px;
+    width: 510px;
+    border: 2px solid black;
+    padding: 10px; 
+}
+.pharmacy1 {
+    display: flex;
+    justify-content: space-between; 
+    border-bottom: 2px solid black; 
+    padding-bottom: 5px; 
+    margin-bottom: 10px; 
+}
+
+.pharmacy2, .pharmacy3 {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-between
+}
+
+.pharmacy2 p, .pharmacy3 p {
+    margin: 0; 
+    line-height: 1;
+
+
+    
+}
+.pharmacy2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.pharmacy2 p {
+    margin-right: 250px;
+}
+
+.wrapper2{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 42px;
+
+}
+
+.customer{
+    margin-left: 50px;
+    height: 130px;
+    width: 510px;
+    border: 2px solid black;
+    padding: 10px; 
+}
+.customer1 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px; 
+    margin-bottom: 10px; 
+}
+.customer2, .customer3 {
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-between
+}
+.customer2 p, .customer3 p {
+    margin: 0; 
+    line-height: 1; 
+}
+.customer2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.customer2 p {
+    margin-right: 250px; 
+}

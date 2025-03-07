@@ -101,7 +101,7 @@ body {
 }
 
 .search-bar #english {
-    margin-left: 160px;
+    margin-left: 200px;
 }
 
 
@@ -113,4 +113,8 @@ body {
 * input{
     background-color: #dadcde;
     
+}
+.ram{
+    display: flex;
+    margin-top: 30px;
 }
